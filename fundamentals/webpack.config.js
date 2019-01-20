@@ -9,6 +9,7 @@ const resolve = function(dir) {
 };
 
 module.exports = {
+  mode: 'production',
   entry: {
     index: [
       resolve('./src/js/index.js')
